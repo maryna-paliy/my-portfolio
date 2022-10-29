@@ -1,7 +1,32 @@
-h1 {
-  font-family: "Comfortaa", cursive;
+:root {
+  --branding-color: rgb(102, 101, 167);
+  --heading-font: "Caveat", cursive;
+  --paragraph-font: "Comfortaa", cursive;
 }
+
+h1 {
+  font-family: var(--heading-font);
+}
+h2,
 p {
-  font-family: "Comfortaa", cursive;
-  font-size: small;
+  font-family: var(--paragraph-font);
+}
+.greeting-card {
+  background: var(--branding-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.greeting-card h2 {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+.greeting-card h1 {
+  font-size: 120px;
+  margin-bottom: 30px;
+  color: white;
+}
+.greeting-card p {
+  font-size: 16px;
+  color: white;
 }
