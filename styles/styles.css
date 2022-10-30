@@ -1,5 +1,5 @@
 :root {
-  --branding-color: rgb(102, 101, 167);
+  --branding-color: rgb(35, 81, 58);
   --heading-font: "Caveat", cursive;
   --paragraph-font: "Comfortaa", cursive;
 }
@@ -15,18 +15,34 @@ p {
   background: var(--branding-color);
   text-align: center;
   padding: 160px 20px;
+  background-image: url("../images/forest.jpg");
+  background-size: cover;
 }
 .greeting-card h2 {
   margin: 0;
   font-size: 24px;
   color: white;
+  font-weight: bold;
 }
 .greeting-card h1 {
   font-size: 120px;
-  margin-bottom: 30px;
+  line-height: 1.5;
+  margin: 0;
   color: white;
 }
 .greeting-card p {
-  font-size: 16px;
+  font-size: 18px;
   color: white;
+  font-weight: bold;
+}
+.amazing {
+  text-align: center;
+  margin: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+@media (max-width: 576px) {
+  .greeting-card h1 {
+    font-size: 70px;
+  }
 }
