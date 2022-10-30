@@ -29,6 +29,7 @@ p {
   line-height: 1.5;
   margin: 0;
   color: white;
+  opacity: 0.8;
 }
 .greeting-card p {
   font-size: 18px;
@@ -40,6 +41,11 @@ p {
   margin: 40px;
   font-size: 24px;
   font-weight: bold;
+}
+.about-ukraine {
+  text-align: center;
+  opacity: 0.7;
+  font-size: 18px;
 }
 @media (max-width: 576px) {
   .greeting-card h1 {
