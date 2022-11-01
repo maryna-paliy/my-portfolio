@@ -3,7 +3,6 @@
   --heading-font: "Caveat", cursive;
   --paragraph-font: "Comfortaa", cursive;
 }
-
 h1 {
   font-family: var(--heading-font);
 }
@@ -18,18 +17,18 @@ p {
   background-image: url("../images/forest.jpg");
   background-size: cover;
 }
-.greeting-card h2 {
-  margin: 0;
-  font-size: 24px;
-  color: white;
-  font-weight: bold;
-}
 .greeting-card h1 {
   font-size: 120px;
   line-height: 1.5;
   margin: 0;
   color: white;
   opacity: 0.8;
+}
+.greeting-card h2 {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
 }
 .greeting-card p {
   font-size: 18px;
@@ -47,8 +46,29 @@ p {
   opacity: 0.7;
   font-size: 18px;
 }
+.about-me h1 {
+  font-size: 70px;
+  line-height: 1.5;
+}
+.about-me h2 {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.about-me p {
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.7;
+  text-align: justify;
+}
 @media (max-width: 576px) {
   .greeting-card h1 {
     font-size: 70px;
+  }
+  .about-me h1 {
+    text-align: center;
+  }
+  .about-me h2 {
+    text-align: center;
   }
 }
