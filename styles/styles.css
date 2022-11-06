@@ -10,11 +10,15 @@ h2,
 p,
 ul {
   font-family: var(--paragraph-font);
-  font-weight: 800;
+  font-weight: 200;
 }
 nav {
-  padding: 5px 0;
+  padding: 5px 20px;
   margin: 0;
+  background-color: white;
+}
+.top-header {
+  background-color: var(--branding-color);
 }
 nav h1 {
   line-height: 50px;
@@ -22,6 +26,7 @@ nav h1 {
 nav ul {
   padding: 0;
   margin: 0;
+  font-weight: 800;
 }
 nav li {
   display: inline;
@@ -32,9 +37,6 @@ nav li {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
-}
-hr {
-  margin: 0;
 }
 .greeting-card {
   background: var(--branding-color);
@@ -63,7 +65,8 @@ hr {
 }
 .amazing {
   text-align: center;
-  margin: 40px;
+  margin: 40px 0;
+  padding-top: 65px;
   font-size: 24px;
   font-weight: bold;
 }
@@ -90,7 +93,7 @@ hr {
 .contact-page {
   background-image: url("../images/forest.jpg");
   background-size: cover;
-  padding: 70px 20px;
+  padding: 120px 20px 100px;
 }
 .contact-card {
   background-color: white;
@@ -107,6 +110,25 @@ a {
   text-decoration: none;
   color: black;
 }
+a:hover {
+  color: var(--branding-color);
+}
+footer a {
+  margin: 0 10px;
+  color: white;
+  background-color: var(--branding-color);
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+footer a:hover {
+  color: var(--branding-color);
+  background-color: white;
+  border: 1px solid var(--branding-color);
+  padding: 9px 13px;
+}
+
 @media (max-width: 576px) {
   nav li {
     margin-left: 10px;
