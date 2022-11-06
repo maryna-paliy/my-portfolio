@@ -77,6 +77,10 @@ p {
 .contact-card h2 {
   font-size: 24px;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 @media (max-width: 576px) {
   .greeting-card h1 {
     font-size: 70px;
