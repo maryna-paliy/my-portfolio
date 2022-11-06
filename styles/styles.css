@@ -12,14 +12,21 @@ ul {
   font-family: var(--paragraph-font);
   font-weight: 200;
 }
+.top-header {
+  background-color: var(--branding-color);
+}
+.logo {
+  background-color: var(--branding-color);
+  color: white;
+  padding: 10px 14px;
+  border-radius: 50%;
+}
 nav {
   padding: 5px 20px;
   margin: 0;
   background-color: white;
 }
-.top-header {
-  background-color: var(--branding-color);
-}
+
 nav h1 {
   line-height: 50px;
 }
@@ -65,8 +72,8 @@ nav li.active a {
 }
 .amazing {
   text-align: center;
-  margin: 40px 0;
-  padding-top: 65px;
+  margin: 0;
+  padding: 40px 0;
   font-size: 24px;
   font-weight: bold;
 }
@@ -93,15 +100,16 @@ nav li.active a {
 .contact-page {
   background-image: url("../images/forest.jpg");
   background-size: cover;
-  padding: 120px 20px 100px;
+  padding: 50px 20px;
 }
 .contact-card {
   background-color: white;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   max-width: 60%;
 }
 .contact-card h1 {
   font-size: 96px;
+  color: var(--branding-color);
 }
 .contact-card h2 {
   font-size: 24px;
