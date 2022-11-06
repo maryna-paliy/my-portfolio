@@ -15,12 +15,6 @@ ul {
 .top-header {
   background-color: var(--branding-color);
 }
-.logo {
-  background-color: var(--branding-color);
-  color: white;
-  padding: 10px 14px;
-  border-radius: 50%;
-}
 nav {
   padding: 5px 20px;
   margin: 0;
