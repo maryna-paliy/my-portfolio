@@ -7,8 +7,34 @@ h1 {
   font-family: var(--heading-font);
 }
 h2,
-p {
+p,
+ul {
   font-family: var(--paragraph-font);
+  font-weight: 800;
+}
+nav {
+  padding: 5px 0;
+  margin: 0;
+}
+nav h1 {
+  line-height: 50px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 30px;
+  line-height: 55px;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+hr {
+  margin: 0;
 }
 .greeting-card {
   background: var(--branding-color);
@@ -64,7 +90,7 @@ p {
 .contact-page {
   background-image: url("../images/forest.jpg");
   background-size: cover;
-  margin: 7% 5%;
+  padding: 70px 20px;
 }
 .contact-card {
   background-color: white;
@@ -82,6 +108,9 @@ a {
   color: black;
 }
 @media (max-width: 576px) {
+  nav li {
+    margin-left: 10px;
+  }
   .greeting-card h1 {
     font-size: 70px;
   }
